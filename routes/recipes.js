@@ -4,7 +4,7 @@ var moment = require("moment");``
 
 var connection = mysql.createPool({
     connectionLimit: 100,
-    host: '11.62.0.20',
+    host: '160.153.129.212',
     user: 'studentrecipes',
     password: 'password123',
     database: 'medivh',
