@@ -1,0 +1,22 @@
+{
+  "name": "daisleya_304cem_backend",
+  "version": "0.0.1",
+  "description": "Backend for the Student Recipes Web App, created for 304CEM.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.coventry.ac.uk/304CEM-1718OCTJAN/daisleya_304cem_backend.git"
+  },
+  "author": "Aaron Daisley",
+  "license": "ISC"
+}
