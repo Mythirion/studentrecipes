@@ -4,11 +4,11 @@ var moment = require("moment");
 
 var connection = mysql.createPool({
   connectionLimit: 100,
-  host: 'localhost',
-  user: 'root',
-  password: 'password',
-  database: 'medivh',
-  debug: false
+    host: '160.153.129.212',
+    user: 'studentrecipes',
+    password: 'password123',
+    database: 'medivh',
+    debug: false
 });
 
 exports.add = function(req, res) {

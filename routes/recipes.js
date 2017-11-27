@@ -4,9 +4,9 @@ var moment = require("moment");``
 
 var connection = mysql.createPool({
     connectionLimit: 100,
-    host: 'localhost',
-    user: 'root',
-    password: 'password',
+    host: '160.153.129.212',
+    user: 'studentrecipes',
+    password: 'password123',
     database: 'medivh',
     debug: false
 });
