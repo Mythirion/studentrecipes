@@ -2,6 +2,7 @@ var express = require("express");
 var mysql = require("mysql");
 var md5 = require("md5");
 var app = express();
+var cors = require("cors");
 var bodyparser = require("body-parser");
 var users = require("./routes/users");
 var favourites = require("./routes/favourites");
@@ -11,6 +12,7 @@ var recipes = require("./routes/recipes");
 app.use(bodyparser.urlencoded({
   extended: true
 }));
+app.use(cors());
 
 // User routing
 app.post('/api/users', users.add);
